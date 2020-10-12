@@ -46,6 +46,13 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin: auto;
+transition: background .2s;
+}
+
+.visit a:houver {
+
+
+    background: #96feff;
 }
 
 @keyframes up {
@@ -86,4 +93,10 @@ animation-delay: 150ms;
 
 animation-delay: 200ms;
 
+}
+
+.visit a{
+
+
+    animation-delay: 250ms;
 }
