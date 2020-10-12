@@ -16,10 +16,5 @@ body,
 input,
 button,
 textarea {
-font-size: 1.8rem;
-font-weight: 400;
-line-height: 1;
-font-family: "nunito", sans-serif;
-
-  font: 400 18px/1 "nunito", sans-serif;
+font: 400 1.85rem/1 "Nunito", sans-serif;
 }
