@@ -16,6 +16,16 @@ h1,
   height: 16vh;
 }
 
+.location {
+  animation-delay: 150ms;
+}
+
+.visit a:houver {
+  background-color: white;
+  cursor: pointer;
+}
+
+
 .visit a {
   width: 8rem;
   height: 8rem;
@@ -29,18 +39,10 @@ h1,
   transition: background 0.2s;
 }
 
-.visit a:houver {
-  background-color: white;
-  cursor: pointer;
-}
-
 #logo {
   animation-delay: 100ms;
 }
 
-.location {
-  animation-delay: 150ms;
-}
 
 main h1 {
   animation-delay: 200ms;
@@ -83,4 +85,6 @@ main h1 {
   
   font-weight: bold;
   width: min(300px, 80%);
+  line-height: .88;
+  margin: clamp(10%, 9vh, 12%) 1px 0 1px;
 }
