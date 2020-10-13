@@ -63,6 +63,15 @@ main h1 {
 
 /* desktop version, tem que ter tb no index a linha meta viewport */
 @media (min-width: 760px) {
+#container{
+padding: 5rem, 2rem;
+background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw,56rem);
+
+
+}
+
+
+
   header {
     display: flex;
     align-items: center;
@@ -79,6 +88,8 @@ h1,
 
 .location {
   text-align: right;
+  font-size: 2.4rem;
+
 }
 
 main h1 {
@@ -87,4 +98,26 @@ main h1 {
   width: min(300px, 80%);
   line-height: .88;
   margin: clamp(10%, 9vh, 12%) 1px 0 1px;
+}
+
+.visit p {
+line-height: 1.5;
+width: clamp(20rem, 20vw, 30rem);
+font-size: 2.4rem;
+
+
+}
+
+.visit {
+display: flex;
+
+
+
+}
+
+.visit a {
+
+
+
+  margin: initial;
 }
