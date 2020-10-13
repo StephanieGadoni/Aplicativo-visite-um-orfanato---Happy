@@ -43,3 +43,10 @@ a.create-orphanage:houver {
   /*mudar o estado dele para o estado de houver */
   background: #17d6eb;
 }
+
+#mapid {
+ width: 100%;
+ height:100%;
+
+
+}
