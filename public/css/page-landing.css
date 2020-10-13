@@ -7,7 +7,7 @@
 
 #container {
   margin: auto;
-  width: 90%;
+  width: min(90%, 112rem);
 }
 
 .location,
@@ -26,7 +26,7 @@ h1,
   align-items: center;
   justify-content: center;
   margin: auto;
-  transition: background .2s;
+  transition: background 0.2s;
 }
 
 .visit a:houver {
@@ -44,6 +44,11 @@ h1,
 
 main h1 {
   animation-delay: 200ms;
+  font-size: clamp(
+    4rem,
+    8vw,
+    84rem
+  );  /*define tamanhos de fonte pra determinadas telas */
 }
 
 .visit p {
@@ -52,4 +57,30 @@ main h1 {
 
 .visit a {
   animation-delay: 300ms;
+}
+
+/* desktop version, tem que ter tb no index a linha meta viewport */
+@media (min-width: 760px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.location,
+h1,
+.visit p {
+  height: initial;
+  text-align: initial;
+}
+
+.location {
+  text-align: right;
+}
+
+main h1 {
+  
+  font-weight: bold;
+  width: min(300px, 80%);
 }
