@@ -29,12 +29,17 @@ aside footer p {
 /* button */
 a.create-orphanage {
   position: absolute;
-  width: 6.4rem;
-  height: 6.4rem;
-  background: #15c3d6;
+  right: 4rem; /* joga para o lado direito */
+  bottom: 4rem; /* joga para baixo */
   border: 0;
   border-radius: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 200ms;
+}
+
+a.create-orphanage:houver {
+  /*mudar o estado dele para o estado de houver */
+  background: #17d6eb;
 }
