@@ -3,8 +3,8 @@
 Tecnologias:
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Node.js
-Express
+Node.js,
+Express,
 SQLite
 
 Projeto: 
