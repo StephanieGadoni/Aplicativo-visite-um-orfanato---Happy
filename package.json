@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/StephanieGadoni/Aplicativo-visite-um-orfanato---Happy/issues"
   },
-  "homepage": "https://github.com/StephanieGadoni/Aplicativo-visite-um-orfanato---Happy#readme"
+  "homepage": "https://github.com/StephanieGadoni/Aplicativo-visite-um-orfanato---Happy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
