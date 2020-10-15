@@ -7,7 +7,7 @@ const server = express()
 
 // criar uma rota
 server.get('/', () => {
-console.log('executando')
+return
 
 })
 
