@@ -6,8 +6,8 @@ const express = require('express');
 const server = express()
 
 // criar uma rota
-server.get('/', () => {
-return
+server.get('/', (request, response) => {
+return response.send('oi')
 
 })
 
